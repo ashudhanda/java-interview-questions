@@ -1,56 +1,59 @@
-# ☕ Java Interview & Practice Questions
+# ☕ Java Made Easy — Notes for Students
 
 ![GitHub stars](https://img.shields.io/github/stars/ashudhanda/java-interview-questions?style=social)
-![GitHub forks](https://img.shields.io/github/forks/ashudhanda/java-interview-questions?style=social)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
-![Level](https://img.shields.io/badge/Level-Beginner%20to%20Advanced-blue)
+![Level](https://img.shields.io/badge/Level-Absolute%20Beginner%20Friendly-blue)
 
-> **100+ Java programming questions with detailed answers & code** — from absolute beginner to advanced. Perfect for interview prep, college exams, and daily practice.
-
----
-
-## 📚 Table of Contents
-
-| # | Topic | Level | Questions |
-|---|-------|-------|-----------|
-| 1 | [Java Basics](01-java-basics.md) | 🟢 Beginner | 20 |
-| 2 | [OOPs Concepts](02-oops-concepts.md) | 🟢 Beginner | 15 |
-| 3 | [Strings & Arrays](03-strings-and-arrays.md) | 🟡 Intermediate | 15 |
-| 4 | [Collections Framework](04-collections-framework.md) | 🟡 Intermediate | 15 |
-| 5 | [Exception Handling](05-exception-handling.md) | 🟡 Intermediate | 10 |
-| 6 | [Multithreading & Concurrency](06-multithreading.md) | 🔴 Advanced | 12 |
-| 7 | [Java 8+ Features](07-java8-and-beyond.md) | 🔴 Advanced | 13 |
-| 8 | [Advanced Coding Problems](08-advanced-coding-problems.md) | 🔴 Advanced | 13 |
+> **Java notes so simple, they finally make sense.** 🌟
+> Every topic explained with real-world analogies, diagrams, tiny code examples, common mistakes, and easy practice questions — written for students, by a student.
 
 ---
 
-## 🗺️ Suggested Learning Path
+## 📖 Part A — Notes (learn step by step)
 
-1. **Week 1-2** → Java Basics + OOPs Concepts (build your foundation)
-2. **Week 3-4** → Strings & Arrays + Collections (most-asked interview topics)
-3. **Week 5** → Exception Handling (short but scoring topic)
-4. **Week 6-7** → Multithreading + Java 8+ (senior-level differentiators)
-5. **Week 8** → Advanced Coding Problems (practice under time pressure)
+| # | Chapter | What you'll finally understand | Status |
+|---|---------|-------------------------------|--------|
+| 1 | [How Java Actually Works](notes/01-how-java-works.md) | JVM, bytecode, why `public static void main` | ✅ |
+| 2 | [Variables & Data Types](notes/02-variables-and-datatypes.md) | Boxes, primitives, casting, int division trap | ✅ |
+| 3 | [Memory: Stack vs Heap](notes/03-memory-stack-vs-heap.md) | Where variables live, `new`, garbage collector | ✅ |
+| 4 | [Arrays](notes/04-arrays.md) | Train-coach model, index 0, 2D arrays | ✅ |
+| 5 | Operators & Conditionals | `==` vs `.equals`, if-else flow | 🔜 |
+| 6 | Loops | for/while/do-while + dry runs | 🔜 |
+| 7 | Methods | Parameters, return, call stack | 🔜 |
+| 8 | Strings | Immutability, string pool | 🔜 |
+| 9 | OOPs Made Simple | Classes, objects, 4 pillars | 🔜 |
+| 10 | Collections | ArrayList, HashMap without fear | 🔜 |
+
+> Every chapter ends with **easy practice questions** solved with full explanation + dry run.
 
 ---
 
-## 🎯 How to Use This Repo
+## 💻 Part B — Coding Questions Bank
 
-- **Interview tomorrow?** Skim topics 1-4 — they cover ~80% of Java interview questions.
-- **Learning from scratch?** Follow the learning path above, one file at a time.
-- **Daily practice?** Pick 5 questions a day. Try answering before reading the solution.
+Coming soon: a dedicated section with problems sorted by **Easy → Medium → Hard**, plus **Important** (asked everywhere) and **Logic-builder** categories.
+
+Meanwhile, topic-wise Q&A for quick revision:
+
+- [Java Basics Q&A](01-java-basics.md) · [OOPs Q&A](02-oops-concepts.md) · [Strings & Arrays](03-strings-and-arrays.md) · [Collections](04-collections-framework.md)
+- [Exceptions](05-exception-handling.md) · [Multithreading](06-multithreading.md) · [Java 8+](07-java8-and-beyond.md) · [Advanced Problems](08-advanced-coding-problems.md)
 
 ---
+
+## 🎯 How to use
+
+1. Read chapters **in order** — each builds on the previous one.
+2. **Type every code example yourself.** Reading ≠ learning.
+3. Try practice questions **before** looking at solutions.
+4. Stuck? Re-read the analogy — that's what it's there for.
 
 ## 🤝 Contributing
 
-Found a mistake? Want to add a question? Contributions are welcome!
-Read [CONTRIBUTING.md](CONTRIBUTING.md) and open a PR. 🚀
+Spotted a confusing explanation? That's a bug! Open an issue or PR — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## ⭐ Support
 
-If this repo helped you, **give it a star** — it helps other learners find it too!
+If Java finally makes sense, **star this repo** so other students can find it too!
 
 ## 📄 License
 
-[MIT](LICENSE) — free to use, share, and learn from.
+[MIT](LICENSE)
