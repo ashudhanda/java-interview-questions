@@ -36,6 +36,7 @@ Meanwhile, topic-wise Q&A for quick revision:
 
 - [Java Basics Q&A](01-java-basics.md) · [OOPs Q&A](02-oops-concepts.md) · [Strings & Arrays](03-strings-and-arrays.md) · [Collections](04-collections-framework.md)
 - [Exceptions](05-exception-handling.md) · [Multithreading](06-multithreading.md) · [Java 8+](07-java8-and-beyond.md) · [Advanced Problems](08-advanced-coding-problems.md)
+- 🆕 [Tricky Output Questions — Guess the Output!](09-tricky-output-questions.md)
 
 ---
 
