@@ -36,7 +36,11 @@ Meanwhile, topic-wise Q&A for quick revision:
 
 - [Java Basics Q&A](01-java-basics.md) · [OOPs Q&A](02-oops-concepts.md) · [Strings & Arrays](03-strings-and-arrays.md) · [Collections](04-collections-framework.md)
 - [Exceptions](05-exception-handling.md) · [Multithreading](06-multithreading.md) · [Java 8+](07-java8-and-beyond.md) · [Advanced Problems](08-advanced-coding-problems.md)
-- 🆕 [Tricky Output Questions — Guess the Output!](09-tricky-output-questions.md)
+- [Tricky Output Questions — Guess the Output!](09-tricky-output-questions.md) · [JVM & Memory](10-jvm-and-memory.md) · [Generics](11-generics.md) · [IO & Serialization](12-io-and-serialization.md)
+- [Design Patterns](13-design-patterns.md) · [JDBC Basics](14-jdbc-basics.md) · [JUnit Testing](15-junit-testing.md) · [Quick Revision Cheatsheet](16-quick-revision-cheatsheet.md)
+- 🆕 [Java 17 & 21 Features](17-java-17-21-features.md) · [Streams API Coding](18-streams-api-coding.md) · [HashMap Internals](19-hashmap-internals.md)
+- 🆕 [SOLID Principles](20-solid-principles.md) · [Lambda & Functional Interfaces](21-lambda-functional-interfaces.md) · [Date & Time API](22-datetime-api.md)
+- 🆕 [String Coding Questions](23-string-coding-questions.md) · [Garbage Collection](24-garbage-collection.md) · [equals & hashCode Contract](25-equals-hashcode-contract.md) · [final & static](26-final-static-keywords.md)
 
 ---
 
