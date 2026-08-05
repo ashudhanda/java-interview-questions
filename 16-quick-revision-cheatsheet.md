@@ -21,6 +21,23 @@ Interview se pehle 10-minute revision ke liye one-liners.
 - `HashSet` duplicates ignore karta hai; `Set.add()` returns false on duplicate
 - `HashMap` allows 1 null key; `Hashtable`/`ConcurrentHashMap` allow none
 
+## HashMap Internals
+- Default capacity 16, **load factor 0.75** → resize = double + rehash
+- Collision → same bucket chain; Java 8+ me 8+ entries pe **red-black tree**
+- Keys **immutable** rakho — mutable key = entry "lost"
+- `ConcurrentHashMap` = bucket-level lock, Hashtable = poora lock
+
+## equals & hashCode
+- Equal objects ⇒ same hashCode (must); same hashCode ⇏ equal objects
+- `equals()` me jo fields, wahi `hashCode()` me
+- `Objects.equals(a, b)` = null-safe comparison
+
+## final & static
+- `final` reference ≠ immutable object — `list.add()` allowed, reassignment nahi
+- `static` = class ki copy; instance = har object ki apni copy
+- Static method **override nahi, hide** hota hai — reference type decide karta hai
+- Order: static block (1 baar) → instance block → constructor
+
 ## Exceptions
 - Checked = compile time (IOException); Unchecked = runtime (NullPointerException)
 - `throw` = actually throwing; `throws` = declaration in signature
@@ -37,8 +54,23 @@ Interview se pehle 10-minute revision ke liye one-liners.
 - Stream: `list.stream().filter(...).map(...).collect(...)`
 - `Optional` — null-safe wrapper; `orElse()` for defaults
 - Method reference: `System.out::println`
+- Functional interfaces: `Predicate` (test), `Function` (apply), `Consumer` (accept), `Supplier` (get)
 
-## Memory
+## Streams One-Liners
+- Counting: `groupingBy(w -> w, counting())`
+- Duplicates hatao: `.distinct()` · Flatten: `.flatMap(List::stream)`
+- `partitioningBy` = sirf 2 buckets; `groupingBy` = kayi
+- `findFirst()` vs `findAny()` — parallel me findAny faster ho sakta hai
+
+## Memory & GC
 - Stack = local vars + frames; Heap = objects
 - `StackOverflowError` = deep recursion; `OutOfMemoryError` = heap full
 - GC unreachable objects free karta hai; `System.gc()` sirf request hai
+- Young Gen (Eden + Survivors) → survive kiya to Old Gen promote
+- `finalize()` deprecated — kabhi rely mat karo
+
+## Java 17 & 21
+- `record Point(int x, int y)` — immutable data class ek line me
+- Sealed class: `permits` se subclass control
+- Virtual threads (21): JVM-managed, I/O ke liye millions banao
+- Switch expression value return karta hai — `->` with no fall-through
