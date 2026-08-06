@@ -156,4 +156,4 @@ System.out.println(a[0] + a.length);
 
 ---
 
-⬅️ [Prev: Memory — Stack vs Heap](03-memory-stack-vs-heap.md) | 🏠 [Index](../README.md)
+⬅️ [Prev: Memory — Stack vs Heap](03-memory-stack-vs-heap.md) | 🏠 [Index](../README.md) | ➡️ [Next: Operators & Conditionals](05-operators-and-conditionals.md)
