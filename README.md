@@ -17,14 +17,15 @@
 | 2 | [Variables & Data Types](notes/02-variables-and-datatypes.md) | Boxes, primitives, casting, int division trap | ✅ |
 | 3 | [Memory: Stack vs Heap](notes/03-memory-stack-vs-heap.md) | Where variables live, `new`, garbage collector | ✅ |
 | 4 | [Arrays](notes/04-arrays.md) | Train-coach model, index 0, 2D arrays | ✅ |
-| 5 | Operators & Conditionals | `==` vs `.equals`, if-else flow | 🔜 |
-| 6 | Loops | for/while/do-while + dry runs | 🔜 |
-| 7 | Methods | Parameters, return, call stack | 🔜 |
-| 8 | Strings | Immutability, string pool | 🔜 |
-| 9 | OOPs Made Simple | Classes, objects, 4 pillars | 🔜 |
-| 10 | Collections | ArrayList, HashMap without fear | 🔜 |
+| 5 | [Operators & Conditionals](notes/05-operators-and-conditionals.md) | `==` vs `.equals`, if-else flow | ✅ |
+| 6 | [Loops](notes/06-loops.md) | for/while/do-while + dry runs | ✅ |
+| 7 | [Methods](notes/07-methods.md) | Parameters, return, call stack | ✅ |
+| 8 | [Strings](notes/08-strings.md) | Immutability, string pool | ✅ |
+| 9 | [OOPs Made Simple](notes/09-oops-made-simple.md) | Classes, objects, 4 pillars | ✅ |
+| 10 | [Collections](notes/10-collections.md) | ArrayList, HashMap without fear | ✅ |
 
 > Every chapter ends with **easy practice questions** solved with full explanation + dry run.
+> 🎓 **New:** follow the [30-Day Study Plan](STUDY-PLAN-30-DAYS.md) to cover everything with a daily checklist!
 
 ---
 
@@ -41,6 +42,7 @@ Meanwhile, topic-wise Q&A for quick revision:
 - 🆕 [Java 17 & 21 Features](17-java-17-21-features.md) · [Streams API Coding](18-streams-api-coding.md) · [HashMap Internals](19-hashmap-internals.md)
 - 🆕 [SOLID Principles](20-solid-principles.md) · [Lambda & Functional Interfaces](21-lambda-functional-interfaces.md) · [Date & Time API](22-datetime-api.md)
 - 🆕 [String Coding Questions](23-string-coding-questions.md) · [Garbage Collection](24-garbage-collection.md) · [equals & hashCode Contract](25-equals-hashcode-contract.md) · [final & static](26-final-static-keywords.md)
+- 🆕 [Recursion Coding Questions](27-recursion-coding-questions.md) · [Interfaces vs Abstract Classes](28-interfaces-vs-abstract-classes.md) · [Java Glossary A–Z](29-java-glossary.md)
 
 ---
 
@@ -50,6 +52,7 @@ Meanwhile, topic-wise Q&A for quick revision:
 2. **Type every code example yourself.** Reading ≠ learning.
 3. Try practice questions **before** looking at solutions.
 4. Stuck? Re-read the analogy — that's what it's there for.
+5. Want a structured path? Follow the [30-Day Study Plan](STUDY-PLAN-30-DAYS.md) — 1–2 hours a day, tick the boxes.
 
 ## 🤝 Contributing
 
