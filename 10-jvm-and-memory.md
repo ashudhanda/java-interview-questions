@@ -25,3 +25,6 @@
 
 ## Q7. What is a memory leak in Java if GC exists?
 **Answer:** When objects are no longer needed but still *reachable* (e.g. stored in a static collection), GC can't reclaim them — memory keeps growing.
+
+## Q8. What is a ClassLoader?
+**Answer:** JVM ka wo part jo `.class` files ko runtime pe load karta hai. Built-in loaders: Bootstrap → Extension → Application classloader. Custom ClassLoader bhi bana sakte ho (plugins, hot-reload ke liye).
