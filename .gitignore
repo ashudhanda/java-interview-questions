@@ -38,3 +38,7 @@ Thumbs.db
 # JVM crash logs
 hs_err_pid*
 replay_pid*
+
+# Backup & temp files
+*.bak
+*.tmp
