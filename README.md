@@ -1,6 +1,7 @@
 # ☕ Java Made Easy — Notes for Students
 
 ![GitHub stars](https://img.shields.io/github/stars/ashudhanda/java-interview-questions?style=social)
+![GitHub forks](https://img.shields.io/github/forks/ashudhanda/java-interview-questions?style=social)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 ![Level](https://img.shields.io/badge/Level-Absolute%20Beginner%20Friendly-blue)
 
