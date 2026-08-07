@@ -40,3 +40,9 @@ public static <T> void printArray(T[] arr) {
     for (T item : arr) System.out.println(item);
 }
 ```
+
+## Q8. What is the diamond operator `<>`?
+**Answer:** Java 7+ me compiler khud type infer kar leta hai, so right side pe type repeat karne ki zaroorat nahi:
+```java
+Map<String, List<Integer>> map = new HashMap<>(); // pehle new HashMap<String, List<Integer>>() likhna padta tha
+```
