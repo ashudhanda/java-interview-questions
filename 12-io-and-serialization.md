@@ -27,3 +27,9 @@ try (BufferedReader br = new BufferedReader(new FileReader("data.txt"))) {
 
 ## Q7. Scanner vs BufferedReader?
 **Answer:** Scanner parses tokens (`nextInt()`, `nextLine()`) — convenient but slower. BufferedReader just reads text fast; parsing is manual. For competitive coding, BufferedReader wins.
+
+## Q8. `File` vs `Path` (NIO.2) — which one to use?
+**Answer:** `File` purana API hai (Java 1.0 se). Modern code me `java.nio.file.Path` + `Files` prefer karo — better error messages, symbolic link support, aur handy one-liners:
+```java
+List<String> lines = Files.readAllLines(Path.of("data.txt"));
+```
