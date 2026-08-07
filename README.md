@@ -62,6 +62,7 @@ Spotted a confusing explanation? That's a bug! Open an issue or PR — see [CONT
 ## ⭐ Support
 
 If Java finally makes sense, **star this repo** so other students can find it too!
+Kisi dost ke saath bhi share karo jo Java start kar raha hai 🚀
 
 ## 📄 License
 
