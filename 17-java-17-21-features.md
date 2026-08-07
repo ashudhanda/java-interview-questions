@@ -62,3 +62,6 @@ String json = """
     { "name": "Ashu", "lang": "Java" }
     """;
 ```
+
+## Q7. Record vs normal class — kab kaunsa?
+**Answer:** Jab class sirf **data carry** kar rahi ho (DTO, API response, coordinates) → `record` best hai, boilerplate khatam. Jab **mutable state** ya complex behavior chahiye → normal class. Records se code chhota aur bugs kam.
