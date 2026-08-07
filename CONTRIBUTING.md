@@ -18,3 +18,9 @@ Thanks for helping make this resource better! 🙌
 - Verify code compiles and is correct
 - Add questions to the file matching their topic and difficulty
 - Fixing typos / improving explanations is equally welcome!
+
+## Style tips
+
+- Prefer simple wording — jo samajh aaye wahi best hai
+- One question = one heading; numbering continues from the last question in that file
+- Code snippets chhote rakho (5–10 lines max)
