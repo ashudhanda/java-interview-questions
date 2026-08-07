@@ -43,3 +43,6 @@ when(repo.findName(1)).thenReturn("Ashu");
 
 ## Q7. Test naming convention?
 **Answer:** Describe behavior, not implementation — `returnsZeroWhenListIsEmpty()` is better than `test1()`.
+
+## Q8. What is TDD (Test-Driven Development)?
+**Answer:** Pehle ek **failing test** likho, phir **minimum code** jo usse pass kare, phir **refactor** karo. Isse Red → Green → Refactor cycle kehte hain. Benefit: code testable banta hai aur requirements clear rehte hain.
