@@ -38,3 +38,12 @@ con.commit();      // sab save
 
 ## Q7. What is a connection pool?
 **Answer:** Creating connections is expensive. A pool (HikariCP etc.) keeps ready connections that are reused — apps borrow and return them instead of opening new ones.
+
+## Q8. What is batch processing in JDBC?
+**Answer:** Multiple inserts/updates ko ek saath DB ko bhejna — round trips kam, performance zyada.
+```java
+ps.addBatch();
+ps.addBatch();
+ps.executeBatch();
+```
+Large data imports me bahut useful hai.
