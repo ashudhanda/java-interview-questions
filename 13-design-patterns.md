@@ -44,3 +44,6 @@ User u = new User.Builder("Ashu").age(21).city("Delhi").build();
 - Factory → `Integer.valueOf()`, `Calendar.getInstance()`
 - Builder → `StringBuilder`, `Stream.builder()`
 - Observer → AWT/Swing event listeners
+
+## Q7. Builder vs Factory — kab kaunsa use karein?
+**Answer:** **Factory** jab *kaunsa* object banana hai wo decide karna ho (type choose hota hai). **Builder** jab ek hi object ko *step-by-step* configure karna ho (bahut saare optional fields). Simple rule: type selection → Factory, configuration → Builder.
