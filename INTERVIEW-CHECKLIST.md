@@ -12,5 +12,10 @@ Interview se pehle ek baar yeh quickly revise karo:
 - [ ] Interface vs abstract class
 - [ ] `static` keyword ke uses
 - [ ] equals & hashCode contract
+- [ ] String pool & immutability
+- [ ] HashMap vs Hashtable vs ConcurrentHashMap
+- [ ] SOLID principles (short answers ready)
+- [ ] Streams API — `map`, `filter`, `collect` examples
+- [ ] `synchronized` vs `volatile`
 
 > Sab topics ki detail is repo ki Q&A files me hai. All the best! 🍀
