@@ -46,3 +46,6 @@ public static <T> void printArray(T[] arr) {
 ```java
 Map<String, List<Integer>> map = new HashMap<>(); // pehle new HashMap<String, List<Integer>>() likhna padta tha
 ```
+
+## Q9. Why can't we create a generic array like `new T[10]` or `List<String>[]`?
+**Answer:** Type erasure ki wajah se runtime pe `T` ka actual type pata nahi hota, aur arrays apna type runtime pe check karte hain (`ArrayStoreException` yaad hai?). Isliye generic arrays allowed nahi. Workaround: `ArrayList<T>` use karo, ya `@SuppressWarnings("unchecked")` ke saath cast.
