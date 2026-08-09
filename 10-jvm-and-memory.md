@@ -28,3 +28,6 @@
 
 ## Q8. What is a ClassLoader?
 **Answer:** JVM ka wo part jo `.class` files ko runtime pe load karta hai. Built-in loaders: Bootstrap → Extension → Application classloader. Custom ClassLoader bhi bana sakte ho (plugins, hot-reload ke liye).
+
+## Q9. What is the JIT compiler?
+**Answer:** JIT (Just-In-Time) compiler hot code (baar-baar chalne wale methods) ko runtime pe native machine code me convert kar deta hai — isliye Java "slow interpreted language" nahi rahi. JVM pehle interpret karta hai, phir frequently used code ko JIT optimize kar deta hai.
