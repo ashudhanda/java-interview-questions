@@ -47,3 +47,6 @@ User u = new User.Builder("Ashu").age(21).city("Delhi").build();
 
 ## Q7. Builder vs Factory — kab kaunsa use karein?
 **Answer:** **Factory** jab *kaunsa* object banana hai wo decide karna ho (type choose hota hai). **Builder** jab ek hi object ko *step-by-step* configure karna ho (bahut saare optional fields). Simple rule: type selection → Factory, configuration → Builder.
+
+## Q8. What is the Adapter pattern?
+**Answer:** Do incompatible interfaces ko saath kaam karwana — ek wrapper class jo ek interface ko dusre me convert karti hai. Example: purana `LegacyPrinter` jo `printText(String)` deta hai, use naye `Printer` interface ke saath adapt karna. Real life: mobile charger ka adapter 🔌 — plug alag, socket alag, adapter dono ko jodta hai.
