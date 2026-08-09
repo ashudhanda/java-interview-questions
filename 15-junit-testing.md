@@ -46,3 +46,14 @@ when(repo.findName(1)).thenReturn("Ashu");
 
 ## Q8. What is TDD (Test-Driven Development)?
 **Answer:** Pehle ek **failing test** likho, phir **minimum code** jo usse pass kare, phir **refactor** karo. Isse Red → Green → Refactor cycle kehte hain. Benefit: code testable banta hai aur requirements clear rehte hain.
+
+## Q9. @ParameterizedTest ka example do.
+**Answer:** Ek hi test multiple inputs ke saath chalana ho to:
+```java
+@ParameterizedTest
+@ValueSource(strings = {"madam", "level", "radar"})
+void palindromesAreDetected(String word) {
+    assertTrue(StringUtils.isPalindrome(word));
+}
+```
+Har value ke liye alag test run hota hai — ek fail ho to baaki bhi report hote hain. `@CsvSource` se multiple arguments bhi de sakte ho.
