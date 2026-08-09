@@ -47,3 +47,10 @@ ps.addBatch();
 ps.executeBatch();
 ```
 Large data imports me bahut useful hai.
+
+## Q9. What are the types of JDBC drivers?
+**Answer:** 4 types:
+1. **Type 1** — JDBC-ODBC bridge (obsolete, Java 8 se removed)
+2. **Type 2** — Native API driver (DB ke native libs use karta hai)
+3. **Type 3** — Network protocol driver (middleware server ke through)
+4. **Type 4** — Pure Java "thin" driver, seedha DB se baat karta hai — **aaj kal yahi use hota hai** (MySQL Connector/J, PostgreSQL JDBC, etc.)
