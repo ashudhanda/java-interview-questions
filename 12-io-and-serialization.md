@@ -33,3 +33,6 @@ try (BufferedReader br = new BufferedReader(new FileReader("data.txt"))) {
 ```java
 List<String> lines = Files.readAllLines(Path.of("data.txt"));
 ```
+
+## Q9. Serializable vs Externalizable?
+**Answer:** `Serializable` me JVM sab kuch automatic karta hai (reflection-based, thoda slow). `Externalizable` me tumhe `writeExternal()` / `readExternal()` khud implement karne padte hain — full control over *kya* aur *kaise* serialize ho. Performance-critical cases me useful, warna `Serializable` kaafi hai.
