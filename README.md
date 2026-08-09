@@ -8,6 +8,8 @@
 > **Java notes so simple, they finally make sense.** 🌟
 > Every topic explained with real-world analogies, diagrams, tiny code examples, common mistakes, and easy practice questions — written for students, by a student.
 
+🔗 **Quick links:** [30-Day Study Plan](STUDY-PLAN-30-DAYS.md) · [Interview Checklist](INTERVIEW-CHECKLIST.md) · [FAQ](FAQ.md) · [Resources](RESOURCES.md)
+
 ---
 
 ## 📖 Part A — Notes (learn step by step)
