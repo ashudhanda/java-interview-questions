@@ -34,9 +34,7 @@
 
 ## 💻 Part B — Coding Questions Bank
 
-Coming soon: a dedicated section with problems sorted by **Easy → Medium → Hard**, plus **Important** (asked everywhere) and **Logic-builder** categories.
-
-Meanwhile, topic-wise Q&A for quick revision:
+Topic-wise Q&A for quick revision — **57 topics** covering core Java, modern features, DSA patterns, and job-ready practices.
 
 ### Core Java
 - [Java Basics Q&A](01-java-basics.md) · [OOPs Q&A](02-oops-concepts.md) · [Strings & Arrays](03-strings-and-arrays.md) · [Collections](04-collections-framework.md)
@@ -50,12 +48,22 @@ Meanwhile, topic-wise Q&A for quick revision:
 - [String Coding Questions](23-string-coding-questions.md) · [Garbage Collection](24-garbage-collection.md) · [equals & hashCode Contract](25-equals-hashcode-contract.md) · [final & static](26-final-static-keywords.md)
 - [Recursion Coding Questions](27-recursion-coding-questions.md) · [Interfaces vs Abstract Classes](28-interfaces-vs-abstract-classes.md) · [Java Glossary A–Z](29-java-glossary.md)
 
-### 🆕 Advanced Topics
-- 🆕 [Java Memory Model & volatile](30-java-memory-model-volatile.md) · [ExecutorService & Concurrency](31-executor-service-concurrency.md) · [Optional & Null Handling](32-optional-and-null-handling.md)
-- 🆕 [Immutability & Defensive Copy](33-immutability-and-defensive-copy.md) · [Comparable vs Comparator](34-comparable-vs-comparator.md) · [Enums in Depth](35-enums-in-depth.md)
-- 🆕 [Inner & Anonymous Classes](36-inner-and-anonymous-classes.md) · [Annotations & Reflection](37-annotations-and-reflection.md) · [Set, Queue & Deque](38-set-queue-deque-deep-dive.md)
-- 🆕 [Custom Exceptions & Best Practices](39-custom-exceptions-best-practices.md) · [Regex & String Formatting](40-regex-and-string-formatting.md) · [NIO.2 File Handling](41-nio2-file-handling.md)
-- 🆕 [Two Pointers & Sliding Window](42-two-pointers-sliding-window.md) · [Rapid Fire Mixed Questions](43-rapid-fire-mixed-questions.md)
+### Advanced Topics
+- [Java Memory Model & volatile](30-java-memory-model-volatile.md) · [ExecutorService & Concurrency](31-executor-service-concurrency.md) · [Optional & Null Handling](32-optional-and-null-handling.md)
+- [Immutability & Defensive Copy](33-immutability-and-defensive-copy.md) · [Comparable vs Comparator](34-comparable-vs-comparator.md) · [Enums in Depth](35-enums-in-depth.md)
+- [Inner & Anonymous Classes](36-inner-and-anonymous-classes.md) · [Annotations & Reflection](37-annotations-and-reflection.md) · [Set, Queue & Deque](38-set-queue-deque-deep-dive.md)
+- [Custom Exceptions & Best Practices](39-custom-exceptions-best-practices.md) · [Regex & String Formatting](40-regex-and-string-formatting.md) · [NIO.2 File Handling](41-nio2-file-handling.md)
+- [Two Pointers & Sliding Window](42-two-pointers-sliding-window.md) · [Rapid Fire Mixed Questions](43-rapid-fire-mixed-questions.md)
+
+### 🆕 DSA Patterns (coding round ke liye)
+- 🆕 [Binary Search & Variants](44-binary-search-and-variants.md) · [Sorting Algorithms](45-sorting-algorithms.md) · [Linked List Questions](46-linked-list-coding-questions.md)
+- 🆕 [Stack & Queue Questions](47-stack-queue-coding-questions.md) · [HashMap Patterns](48-hashmap-coding-patterns.md) · [Matrix & 2D Arrays](49-matrix-2d-array-problems.md)
+- 🆕 [Bit Manipulation](50-bit-manipulation.md) · [Dynamic Programming](51-dynamic-programming-basics.md) · [Binary Tree & BST](52-binary-tree-and-bst.md)
+- 🆕 [Time & Space Complexity (Big-O)](54-time-space-complexity.md)
+
+### 🆕 Practical Java (job ke liye)
+- 🆕 [Concurrent Collections](53-concurrent-collections.md) · [Logging & Debugging](55-logging-and-debugging.md)
+- 🆕 [Maven, Gradle & Project Structure](56-maven-gradle-project-structure.md) · [Clean Code & Best Practices](57-clean-code-best-practices.md)
 
 ---
 
@@ -66,6 +74,9 @@ Meanwhile, topic-wise Q&A for quick revision:
 3. Try practice questions **before** looking at solutions.
 4. Stuck? Re-read the analogy — that's what it's there for.
 5. Want a structured path? Follow the [30-Day Study Plan](STUDY-PLAN-30-DAYS.md) — 1–2 hours a day, tick the boxes.
+
+**Interview se pehle:** Part A → Core Java → [Cheatsheet](16-quick-revision-cheatsheet.md).
+**Coding round ke liye:** DSA Patterns section → har topic ke examples khud type karo.
 
 ## 🤝 Contributing
 
