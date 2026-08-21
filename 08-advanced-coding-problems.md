@@ -3,8 +3,11 @@
 ### Q1. Fibonacci with memoization (avoid exponential recursion).
 ```java
 static long fib(int n, long[] memo) {
+    // Base cases: F(0) = 0, F(1) = 1
     if (n <= 1) return n;
+    // If result already computed, return it
     if (memo[n] != 0) return memo[n];
+    // Compute and store result
     return memo[n] = fib(n - 1, memo) + fib(n - 2, memo);
 }
 // fib(50, new long[51]) — O(n) instead of O(2^n)
