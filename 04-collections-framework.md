@@ -1,6 +1,7 @@
 # 🟡 Collections Framework — 15 Questions
 
 ### Q1. ArrayList vs LinkedList?
+**Overview of ArrayList and LinkedList**: ArrayList and LinkedList are two fundamental data structures in Java, each with their own strengths and use cases.
 **Answer:**
 | | ArrayList | LinkedList |
 |--|-----------|------------|
